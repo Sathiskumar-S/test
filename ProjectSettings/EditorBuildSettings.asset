@@ -4,7 +4,34 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HomeScence.unity
+    guid: 167ddcfa628b5c94f90411b2658213a8
+  - enabled: 1
+    path: Assets/Scenes/Mars.unity
+    guid: ec83baf8d55aa7c46a18f950565aee0e
+  - enabled: 1
+    path: Assets/Scenes/Earth.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Jupiter.unity
+    guid: 358e97cb680406e469cd723e594cae98
+  - enabled: 1
+    path: Assets/Scenes/Mercury.unity
+    guid: 4aa723bdcf32c1a4da8a7792392687c4
+  - enabled: 1
+    path: Assets/Scenes/Neptune.unity
+    guid: 36c8663a25a541848bc31a41b2b0b3d7
+  - enabled: 1
+    path: Assets/Scenes/Saturn.unity
+    guid: 81b7123f06bda684e802ca55b15d9ab6
+  - enabled: 1
+    path: Assets/Scenes/Uranus.unity
+    guid: 021e922dd4038e146af40fc1f1ff89fa
+  - enabled: 1
+    path: Assets/Scenes/Venus.unity
+    guid: d8c552d14336f16449c10a402285b86a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8cb159a69103e4b499613e1ff3052138, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e1b65e1fdb07d484dbf2c1d17108f5ec, type: 2}

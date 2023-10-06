@@ -319,7 +319,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 250180736}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 747334929}
+        m_TargetAssemblyTypeName: ScenceSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScenes
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Earth
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &329690338
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,7 +452,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 329690340}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 747334929}
+        m_TargetAssemblyTypeName: ScenceSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScenes
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Neptune
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &415825442
 GameObject:
   m_ObjectHideFlags: 0
@@ -561,7 +585,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 415825444}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 747334929}
+        m_TargetAssemblyTypeName: ScenceSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScenes
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Mercury
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &672009249
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,7 +718,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 672009251}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 747334929}
+        m_TargetAssemblyTypeName: ScenceSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScenes
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Mars
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &747334927
 GameObject:
   m_ObjectHideFlags: 0
@@ -692,6 +740,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 747334928}
+  - component: {fileID: 747334929}
   m_Layer: 5
   m_Name: ButtonHandler
   m_TagString: Untagged
@@ -727,6 +776,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -124.9975}
   m_SizeDelta: {x: 0, y: -250.005}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &747334929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747334927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f4625a6c60702649acddc79eff80fbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &752505539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,7 +1230,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1412728906}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 747334929}
+        m_TargetAssemblyTypeName: ScenceSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScenes
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Uranus
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1749963707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,7 +1363,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1749963709}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 747334929}
+        m_TargetAssemblyTypeName: ScenceSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScenes
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Jupiter
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1911968484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1411,7 +1496,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1911968486}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 747334929}
+        m_TargetAssemblyTypeName: ScenceSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScenes
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Venus
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1926650561
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,7 +1629,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1926650563}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 747334929}
+        m_TargetAssemblyTypeName: ScenceSwitcher, Assembly-CSharp
+        m_MethodName: SwitchScenes
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Saturn
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1997267212
 GameObject:
   m_ObjectHideFlags: 0
